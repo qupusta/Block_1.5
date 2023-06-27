@@ -30,6 +30,7 @@ brandsExpander.addEventListener('click', function () {
 const swiper = new Swiper(slider, {
     spaceBetween: 20,
     pagination: {
-        el: '.swiper-pagination'
+        el: '.swiper-pagination',
+        clickable: 'true',
     },
 });
